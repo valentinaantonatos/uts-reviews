@@ -67,6 +67,11 @@ public class Main {
   String tutors() {
     return "tutors";
   }
+    
+@RequestMapping("/register")
+  String register() {
+    return "register";
+  }
 
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
