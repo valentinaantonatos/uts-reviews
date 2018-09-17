@@ -52,17 +52,17 @@ public class Main {
   String index() {
     return "index";
   }
-    
+
   @RequestMapping("/login")
   String login() {
     return "login";
   }
-    
+
   @RequestMapping("/subjects")
   String subjects() {
     return "subjects";
   }
-    
+
   @RequestMapping("/tutors")
   String tutors() {
     return "tutors";
